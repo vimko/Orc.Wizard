@@ -6,6 +6,7 @@
 
 
 using ApprovalTests.Reporters;
+using ApprovalTests.Reporters.Windows;
 
 #if DEBUG
 [assembly: UseReporter(typeof(BeyondCompare4Reporter), typeof(DiffReporter), typeof(AllFailingTestsClipboardReporter))]
